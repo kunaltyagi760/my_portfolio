@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -18,19 +18,19 @@
         </div>
 
         <ul class="flex justify-end px-10">
-            <li class="mx-4 cursor-pointer hover:text-orange-800 hover:border-b-2 hover:border-orange-800">Home</li>
-            <li class="mx-4 cursor-pointer hover:text-orange-800 hover:border-b-2  hover:border-orange-800">About</li>
-            <li class="mx-4 cursor-pointer hover:text-orange-800 hover:border-b-2  hover:border-orange-800">Skills</li>
-            <li class="mx-4 cursor-pointer hover:text-orange-800 hover:border-b-2  hover:border-orange-800">Projects
+            <li class="mx-4 cursor-pointer hover:text-orange-800 hover:border-b-2 hover:border-orange-800"><a aria-current="page" href="#home">Home</a></li>
+            <li class="mx-4 cursor-pointer hover:text-orange-800 hover:border-b-2  hover:border-orange-800"><a aria-current="page" href="#about">About</a></li>
+            <li class="mx-4 cursor-pointer hover:text-orange-800 hover:border-b-2  hover:border-orange-800"><a aria-current="page" href="#skills">Skills</a></li>
+            <li class="mx-4 cursor-pointer hover:text-orange-800 hover:border-b-2  hover:border-orange-800"><a aria-current="page" href="#projects">Projects</a>
             </li>
-            <li class="mx-4 cursor-pointer hover:text-orange-800 hover:border-b-2  hover:border-orange-800">Contact</li>
+            <li class="mx-4 cursor-pointer hover:text-orange-800 hover:border-b-2  hover:border-orange-800"><a aria-current="page" href="#contact">Contact</a></li>
             <div>
                 <button
                     class="bg-orange-800 px-3 py-1 text-white font-semibold ml-6 hover:text-black hover:bg-gray-200 border-orange-800 border-2 rounded-xl">Resume</button>
             </div>
         </ul>
     </nav>
-    <main class="bg-white flex justify-around h-[360px] px-14 py-4">
+    <main id="home" class="bg-white flex justify-around h-[360px] px-14 py-4">
         <div class="px-16 py-20">
             <h3 class="text-2xl font-semibold">Hi 👋 &nbsp;my name is</h3>
             <h1 class="text-6xl font-bold my-2">Kunal Tyagi</h1>
@@ -46,7 +46,7 @@
         </div>
     </main>
     <hr>
-    <section class="bg-gray-200 h-[430px] flex justify-evenly">
+    <section id="about" class="bg-gray-200 h-[430px] flex justify-evenly">
         <div>
             <img src="images/black_bg.png" class="h-72 w-72 mx-4  my-20 rounded-full" alt="">
         </div>
@@ -65,7 +65,7 @@
         </div>
     </section>
     <hr>
-    <section>
+    <section id="skills">
         <div class="container mx-auto py-14">
             <h2 class="text-4xl text-center font-bold mb-6">Skills</h2>
 
@@ -167,7 +167,7 @@
         </div>
     </section>
     <hr>
-    <section>
+    <section id="projects">
         <div class="container mx-auto py-12">
             <h2 class="text-4xl text-center font-bold mb-10">My Projects</h2>
 
@@ -282,7 +282,7 @@
         </div>
     </section>
     <hr>
-    <footer class="container mx-auto py-12">
+    <footer id="contact" class="container mx-auto py-12">
         <h2 class="text-4xl text-center font-bold mb-10">Contact Me</h2>
         <div class="grid grid-cols-2 gap-6 text-xl font-semibold">
             <p>
