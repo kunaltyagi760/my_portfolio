@@ -95,7 +95,7 @@ function typing_stuff(typing_string) {
     }
 }
 
-typing_stuff("an agorithm developer")
+typing_stuff("an algorithm developer")
 typing_stuff("a python developer")
 typing_stuff("a problem solver")
 
