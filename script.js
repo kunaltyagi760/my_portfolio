@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function downloadResume() {
         
-        const resumePath = 'https://drive.google.com/file/d/1sw6dZPsFSKhRJQd99jMAV76S5SrGepOz/view?usp=drive_link';
+        const resumePath = 'https://drive.google.com/file/d/1egHoQXH2K7SsZbAd8wzmZwhr5qDwznkF/view?usp=sharing';
 
         const link = document.createElement('a');
         link.href = resumePath;
