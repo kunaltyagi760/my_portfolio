@@ -69,9 +69,10 @@ function typing_stuff(typing_string) {
     }
 }
 
-typing_stuff("a Full Stack Web Developer")
-typing_stuff("a Python Backend Developer")
-typing_stuff("an Algorithm Developer ")
+typing_stuff("a Full Stack Developer")
+typing_stuff("an Algorithm Developer")
+typing_stuff("learning MERN stack")
+
 
 type.go();
 
