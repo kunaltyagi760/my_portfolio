@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function downloadResume() {
         
-        const resumePath = 'https://drive.google.com/file/d/1UgIFnTu94zLt4x0s51sZWLcc_ByDaDHl/view?usp=sharing';
+        const resumePath = 'https://resume-builder-test-new.masaischool.com/resume/public?resumeId=662a8bf39ae9ae3f68954687';
 
         const link = document.createElement('a');
         link.href = resumePath;
