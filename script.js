@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function downloadResume() {
         
-        const resumePath = 'https://resume-builder-test-new.masaischool.com/resume/public?resumeId=662a8bf39ae9ae3f68954687';
+        const resumePath = 'https://resume-builder-test-new.masaischool.com/resume/public?resumeId=67bc80c13bc96bedb09f4423';
 
         const link = document.createElement('a');
         link.href = resumePath;
@@ -72,8 +72,6 @@ function typing_stuff(typing_string) {
 typing_stuff("a Full Stack Developer")
 typing_stuff("a Django Developer")
 typing_stuff("an Algorithm Developer")
-typing_stuff("learning MERN stack")
-
 
 type.go();
 
@@ -97,9 +95,9 @@ function typing_stuff(typing_string) {
     }
 }
 
-typing_stuff("an algorithm developer")
-typing_stuff("a python developer")
-typing_stuff("a django developer")
+typing_stuff("a Full Stack Developer")
+typing_stuff("a Django Developer")
+typing_stuff("an Algorithm Developer")
 
 type.go();
 
